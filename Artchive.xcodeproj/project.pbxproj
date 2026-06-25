@@ -16,6 +16,9 @@
 		0A3C4F202C2D100100000001 /* ChildProfileColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C4F1F2C2D100100000001 /* ChildProfileColor.swift */; };
 		0A3C4F222C2D100100000001 /* ChildFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C4F212C2D100100000001 /* ChildFormView.swift */; };
 		0A3C4F242C2D100100000001 /* ChildrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C4F232C2D100100000001 /* ChildrenView.swift */; };
+		0A3C4F262C2D100100000001 /* PendingArtworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C4F252C2D100100000001 /* PendingArtworkImage.swift */; };
+		0A3C4F282C2D100100000001 /* AddArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C4F272C2D100100000001 /* AddArtworkView.swift */; };
+		0A3C4F2A2C2D100100000001 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C4F292C2D100100000001 /* GalleryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		0A3C4F1F2C2D100100000001 /* ChildProfileColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildProfileColor.swift; sourceTree = "<group>"; };
 		0A3C4F212C2D100100000001 /* ChildFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildFormView.swift; sourceTree = "<group>"; };
 		0A3C4F232C2D100100000001 /* ChildrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenView.swift; sourceTree = "<group>"; };
+		0A3C4F252C2D100100000001 /* PendingArtworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingArtworkImage.swift; sourceTree = "<group>"; };
+		0A3C4F272C2D100100000001 /* AddArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArtworkView.swift; sourceTree = "<group>"; };
+		0A3C4F292C2D100100000001 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,7 @@
 		0A3C4F1D2C2D100100000001 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0A3C4F2B2C2D100100000001 /* Gallery */,
 				0A3C4F1E2C2D100100000001 /* Children */,
 			);
 			path = Views;
@@ -104,6 +111,16 @@
 				0A3C4F232C2D100100000001 /* ChildrenView.swift */,
 			);
 			path = Children;
+			sourceTree = "<group>";
+		};
+		0A3C4F2B2C2D100100000001 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				0A3C4F252C2D100100000001 /* PendingArtworkImage.swift */,
+				0A3C4F272C2D100100000001 /* AddArtworkView.swift */,
+				0A3C4F292C2D100100000001 /* GalleryView.swift */,
+			);
+			path = Gallery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +200,9 @@
 				0A3C4F202C2D100100000001 /* ChildProfileColor.swift in Sources */,
 				0A3C4F222C2D100100000001 /* ChildFormView.swift in Sources */,
 				0A3C4F242C2D100100000001 /* ChildrenView.swift in Sources */,
+				0A3C4F262C2D100100000001 /* PendingArtworkImage.swift in Sources */,
+				0A3C4F282C2D100100000001 /* AddArtworkView.swift in Sources */,
+				0A3C4F2A2C2D100100000001 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,5 +32,11 @@ struct ImageStore {
     func makeFilename(fileExtension: String = "jpg") -> String {
         "\(UUID().uuidString).\(fileExtension)"
     }
-}
 
+    func saveImageData(_ data: Data, fileExtension: String) throws -> String {
+        let filename = makeFilename(fileExtension: fileExtension)
+        let destinationURL = try url(for: filename)
+        try data.write(to: destinationURL, options: .atomic)
+        return filename
+    }
+}

@@ -3,6 +3,7 @@ import SwiftData
 
 @Model
 final class Artwork {
+    var id: UUID
     var title: String
     var artworkDescription: String
     var tagsText: String
@@ -29,6 +30,7 @@ final class Artwork {
     }
 
     init(
+        id: UUID = UUID(),
         title: String = "",
         artworkDescription: String = "",
         tags: [String] = [],
@@ -38,6 +40,7 @@ final class Artwork {
         updatedAt: Date = .now,
         child: Child? = nil
     ) {
+        self.id = id
         self.title = title
         self.artworkDescription = artworkDescription
         self.tagsText = tags
