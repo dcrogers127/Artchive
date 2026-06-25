@@ -33,8 +33,8 @@ Definition of done:
 
 Open decisions:
 
-- Minimum iOS version.
-- Whether to create the Xcode project manually in Xcode or generate it from the command line.
+- Minimum iOS version: iOS 17.0 for SwiftData support.
+- Whether to create the Xcode project manually in Xcode or generate it from the command line: generated from the command line for the initial shell.
 
 ## Milestone 1: Domain Model And Persistence
 
@@ -185,4 +185,3 @@ Start with Milestone 0 by creating the SwiftUI project shell. Before generating 
 
 - Minimum iOS version.
 - Manual Xcode project creation versus command-line project generation.
-
