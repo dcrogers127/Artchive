@@ -1,6 +1,10 @@
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+    @Environment(\.modelContext) private var modelContext
+    @Query(sort: \Child.createdAt) private var children: [Child]
+
     var body: some View {
         NavigationStack {
             VStack(spacing: 16) {
@@ -17,6 +21,10 @@ struct ContentView: View {
                         .font(.body)
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
+
+                    Text("\(children.count) child profile\(children.count == 1 ? "" : "s") ready")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
                 }
             }
             .padding()
@@ -28,5 +36,9 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .modelContainer(for: [
+                Child.self,
+                Artwork.self
+            ], inMemory: true)
     }
 }

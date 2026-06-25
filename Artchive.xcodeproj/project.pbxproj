@@ -10,6 +10,9 @@
 		0A3C4F092C2D100100000001 /* ArtchiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C4F082C2D100100000001 /* ArtchiveApp.swift */; };
 		0A3C4F0B2C2D100100000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C4F0A2C2D100100000001 /* ContentView.swift */; };
 		0A3C4F0D2C2D100100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3C4F0C2C2D100100000001 /* Assets.xcassets */; };
+		0A3C4F162C2D100100000001 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C4F152C2D100100000001 /* Child.swift */; };
+		0A3C4F182C2D100100000001 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C4F172C2D100100000001 /* Artwork.swift */; };
+		0A3C4F1C2C2D100100000001 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C4F1B2C2D100100000001 /* ImageStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +20,9 @@
 		0A3C4F082C2D100100000001 /* ArtchiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtchiveApp.swift; sourceTree = "<group>"; };
 		0A3C4F0A2C2D100100000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A3C4F0C2C2D100100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A3C4F152C2D100100000001 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		0A3C4F172C2D100100000001 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		0A3C4F1B2C2D100100000001 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +57,28 @@
 			children = (
 				0A3C4F082C2D100100000001 /* ArtchiveApp.swift */,
 				0A3C4F0A2C2D100100000001 /* ContentView.swift */,
+				0A3C4F192C2D100100000001 /* Models */,
+				0A3C4F1A2C2D100100000001 /* Services */,
 				0A3C4F0C2C2D100100000001 /* Assets.xcassets */,
 			);
 			path = Artchive;
+			sourceTree = "<group>";
+		};
+		0A3C4F192C2D100100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A3C4F152C2D100100000001 /* Child.swift */,
+				0A3C4F172C2D100100000001 /* Artwork.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A3C4F1A2C2D100100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0A3C4F1B2C2D100100000001 /* ImageStore.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +152,9 @@
 			files = (
 				0A3C4F092C2D100100000001 /* ArtchiveApp.swift in Sources */,
 				0A3C4F0B2C2D100100000001 /* ContentView.swift in Sources */,
+				0A3C4F162C2D100100000001 /* Child.swift in Sources */,
+				0A3C4F182C2D100100000001 /* Artwork.swift in Sources */,
+				0A3C4F1C2C2D100100000001 /* ImageStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,4 +363,3 @@
 	};
 	rootObject = 0A3C4EFD2C2D100100000001 /* Project object */;
 }
-

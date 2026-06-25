@@ -57,7 +57,7 @@ Relationships:
 Notes:
 
 - Use `artworkDescription` instead of `description` in Swift code to avoid confusion with common protocol/property naming.
-- Store tags as an array if SwiftData support is smooth; otherwise store as a comma-separated string behind a small helper.
+- Store tags as a comma-separated string behind a computed `[String]` helper for the MVP.
 - Store image files in app documents storage and keep only the filename/path in SwiftData.
 
 ## Screens
@@ -154,4 +154,3 @@ Simple management screen.
 - OCR for handwritten names/dates.
 - AI-assisted titles and tags.
 - "On this day" resurfacing.
-
